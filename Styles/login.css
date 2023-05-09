@@ -1,0 +1,103 @@
+body{
+    font-family: Roboto, Arial;
+    background: rgb(227,255,247);
+    background: linear-gradient(90deg, rgba(227,255,247,1) 0%, rgba(229,229,236,1) 50%, rgba(227,255,247,1) 100%);
+}
+.image{
+width: 90%;
+height: 70%;
+
+}
+.main-container{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    
+    
+}
+.logo-container{
+    margin: 50px;
+    display: flex;
+    justify-content: center;  
+}
+
+.logo-main-container{
+    margin-left: 400px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+.login-container{
+    width: 400px;
+    height: 100%;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    background: rgb(75,141,196);
+    background: linear-gradient(0deg, rgba(75,141,196,1) 0%, rgba(116,135,172,1) 100%, rgba(161,161,161,1) 100%);
+    position: fixed;
+
+}
+
+.login-input-container{
+    margin: 10px 25px;
+    display: grid;
+    grid-template-columns: 1fr;
+   
+}
+
+.forgotpasswordlink{
+    margin-left: 10px;
+    font-size: 14px;
+    color: white;
+}
+.login-input-container input{
+    padding: 17px;
+    margin: 5px;
+    font-size: 14px;
+    color: black;
+    font-weight: bold;
+    border-radius: 10px;
+    background: #e3fff7;
+    border: none;
+    
+}
+.login-input-container input:focus{
+   outline: none;
+    
+}
+
+.login-input-container label{
+    margin-left: 10px;
+    color: white;
+     
+ }
+.login-header-container{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items:center ;
+
+}
+.login-header-container p {
+   font-size: 20px;
+   color: white;
+   font-weight: bold;
+}
+
+.login-button-container{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    
+}
+.login-button-container button{
+    padding: 15px;
+    width: 200px;
+    border-radius: 10px;
+    font-weight: bold;
+    background: rgb(54, 234, 159);
+    border: none;
+
+}
